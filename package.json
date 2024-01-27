@@ -1,0 +1,35 @@
+{
+  "name": "course-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSomith/course-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSomith/course-back/issues"
+  },
+  "homepage": "https://github.com/NSomith/course-back#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.3",
+    "otp-generator": "^4.0.1",
+    "prettier": "^3.2.4"
+  }
+}

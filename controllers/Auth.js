@@ -1,5 +1,5 @@
-require("dotenv").config();
 const User = require("../models/User");
+require("dotenv").config();
 const OTP = require("../models/OTP");
 const Profile = require("../models/Profile");
 const otpGenerator = require("otp-generator");
@@ -165,7 +165,7 @@ exports.login = async (req, res) => {
       const payload = {
         email: user.email,
         id: user._id,
-        role: user.role,
+        role: user.accountType,
       };
       const token = await jwt.sign(payload, process.env.JWT_SECRET, {
         expiresIn: "2h",

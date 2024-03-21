@@ -1,5 +1,5 @@
-const User = require("../models/User");
 require("dotenv").config();
+const User = require("../models/User");
 const OTP = require("../models/OTP");
 const Profile = require("../models/Profile");
 const otpGenerator = require("otp-generator");
